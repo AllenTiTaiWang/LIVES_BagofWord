@@ -85,7 +85,7 @@ The whole process has already built that there is only one command
 to train the model, and another one to test it. The following flow
 chart shows what the code will do.
 
-![alt text](https://github.com/AllenTiTaiWang/LIVES_BagofWord/tree/master/pics/flow_chart.png)
+![alt text](https://github.com/AllenTiTaiWang/LIVES_BagofWord/blob/master/pics/flow_chart.png)
 
 ### Run the script
 
@@ -97,7 +97,7 @@ python3 main.py train availability logistic
 ```
 
 This will give you the analysis of using `both`, `participant`,
-`coach` utterance, and `whole`, `the first half`, the second half
+`coach` utterance, and `whole`, `the first half`, `the second half`
 of transcripts as hyperparameter to train models. Pick the best
 combination, and we are ready to use them for final prediction.
 
